@@ -18,6 +18,9 @@ header{
     z-index: 1;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.404);
+    height: 12vh;
+    
+    
 
 }
 
@@ -55,6 +58,8 @@ header{
         width: 65px;
         height: 65px;
         padding-right: 0%;
+        filter:drop-shadow(0 0 20px #121212);
+
 }
 
 .name{
@@ -65,6 +70,8 @@ header{
     font-family: 'Roboto Flex', sans-serif;
     float: left;
     font-size: 25px;
+    text-shadow: 2px 2px 4px #252525;
+
 
 }
 
@@ -102,12 +109,12 @@ nav ul li{
 nav li a:hover{
     text-decoration: none;
     color: white;
-    transition: .3s ease-in-out 0s;
+    transition: .2s ease-in-out .2s;
     cursor: pointer;
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 100;
+    font-size: 18px;
     text-shadow: 2px 2px 4px #000000;
-    letter-spacing:.3rem;
+    letter-spacing:.2rem;
     animation: text 3s 1;
     animation-fill-mode: forwards;
     opacity: 0;
@@ -294,7 +301,7 @@ button:active {
 }
 
 #shop{
-    height: 90vh;
+    height: 88vh;
     width: 100vw;
     background-color:#fff;
     
@@ -309,13 +316,14 @@ button:active {
     justify-content: center;
     font-size: 40px;
     color:#4968a7 ;
+    font-family: 'Bebas Neue', sans-serif;
     
 
 }
 
 .card {
-    width: 190px;
-    height: 254px;
+    width: 200px;
+    height: 278px;
     padding: .8em;
     background: #f5f5f5;
     position: relative;
@@ -391,4 +399,21 @@ button:active {
     padding: 20px;
     justify-content: space-evenly;
     
+  }
+  .info_shopping{
+    padding: 50px 100px;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  #contact{
+    background-color: whitesmoke;
+    height: 88vh;
+    width: 100%;
+  }
+
+  .contact_title{
+    text-align: center;
+    font-size:xx-large;
   }
