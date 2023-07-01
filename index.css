@@ -19,6 +19,7 @@ header{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.404);
     height: 12vh;
+    overflow-y: hidden;
     
     
 
@@ -413,10 +414,30 @@ button:active {
     background-color: whitesmoke;
     height: 88vh;
     width: 100%;
+    
   }
 
   .contact_title{
     text-align: center;
     font-size:xx-large;
     
+  }
+
+  #map-container {
+    height: 400px;
+    width: 100%;
+  }
+
+  .address{
+    text-decoration: none;
+    font-size: 30px;
+    float: left;
+  }
+
+  .contact_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 40px;
   }
