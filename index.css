@@ -119,6 +119,11 @@ nav li a:hover{
     color: white;
 }
 
+.nav{
+  text-decoration: none;
+  
+}
+
 .content_section{
 
     height: 100vh;
