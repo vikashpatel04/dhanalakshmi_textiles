@@ -463,6 +463,7 @@ button:active {
     overflow: hidden;
     height: 50px;
     width: 200px;
+    
   }
   
   .social::before, .social::after {
@@ -563,4 +564,16 @@ button:active {
     100% {
       transform: scale(1);
     }
+  }
+
+  .info_address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+  .social_btn{
+    padding-top: 40px;
   }
