@@ -16,6 +16,7 @@ body{
     box-sizing: border-box;
     width: 100vw;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 
@@ -588,7 +589,8 @@ body{
   background-color: #726ADE;
   height: 100vh;
   width: 100%;
-  padding-right: 8rem;
+  /* padding-right: 8rem; */
+  margin:0%;
 }
 
 .about-info{
@@ -610,6 +612,7 @@ body{
   font-size: 55px;
   color: #eeeeee;
   text-align: center;
+  padding-top: 8rem;
 }
 
 .to-top {
@@ -618,7 +621,7 @@ body{
   font-family: 'Kalam', cursive;  
   font-weight: 400;
   cursor: pointer;
-  position: relative;
+  /* position: relative; */
   border: none;
   background: none;
   text-transform: uppercase;
@@ -626,6 +629,8 @@ body{
   transition-duration: 400ms;
   transition-property: color;
   text-align: center;
+  width: 100%;
+  padding-top: 3rem;
   
   
 }
@@ -657,5 +662,5 @@ body{
 
 button.to-top{
   text-align: center;
-  
+  background-color: #726ADE;
 }
