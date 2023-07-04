@@ -16,19 +16,21 @@ body{
     box-sizing: border-box;
     width: 100vw;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 
 .nav{
     height: 10vh;
-    width: auto;
+    width: auto ;
     background-color: #060606;
     display: flex;
     justify-content: space-between;
     padding: 0px 1.2rem;
     font-family: 'Poppins', sans-serif;
-}
+    /* position: fixed; */
+    /* overflow-x: hidden; */
+  }
 
 
 .nav img{
@@ -46,6 +48,7 @@ body{
 .nav .left {
     display: flex;
     align-items: center;
+    /* overflow-x: hidden; */
 }
 
 .nav .left ul {
@@ -56,7 +59,7 @@ body{
 
 .nav .left ul li{
     list-style: none;
-    
+    /* overflow: hidden; */
 }
 
 .nav .left ul li:hover a{
@@ -70,6 +73,7 @@ body{
     color: #f4f4f4;
     text-decoration: none;
     transition: .6s;
+    /* overflow: hidden; */
 }
 .content_section{
 
